@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+
+# Secret files
+.env
+serviceAccountKey.json # Исключаем конкретно этот файл
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vercel cache
+.vercel 
